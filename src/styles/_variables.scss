@@ -1,0 +1,29 @@
+$primary-color: #fff;
+$secondary-color: #1d2731;
+$accent-color: #4b87c6;
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40%) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+$font-weight: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 600,
+);
+
+$font-size: (
+  "regular": 18px,
+  "big": 21px,
+  "logo": 2%,
+);
+
+$bio-padding: 2rem;

@@ -1,0 +1,13 @@
+@import "./styles/landingpage";
+@import "./styles/reset";
+@import "./styles/variables";
+@import "./styles/biosection";
+@import "./styles/projects";
+@import "./styles/projects";
+@import "./styles/footer";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+html {
+  background-color: $primary-color;
+  font-family: "Poppins", sans-serif;
+}
