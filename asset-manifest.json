@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d31faeea.chunk.css",
+    "main.js": "/static/js/main.08180acf.chunk.js",
+    "main.js.map": "/static/js/main.08180acf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.b0aaa5fa.chunk.js": "/static/js/2.b0aaa5fa.chunk.js",
+    "static/js/2.b0aaa5fa.chunk.js.map": "/static/js/2.b0aaa5fa.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.07b1e933364a5fab11657a3f0820ac1b.js": "/precache-manifest.07b1e933364a5fab11657a3f0820ac1b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d31faeea.chunk.css.map": "/static/css/main.d31faeea.chunk.css.map",
+    "static/js/2.b0aaa5fa.chunk.js.LICENSE.txt": "/static/js/2.b0aaa5fa.chunk.js.LICENSE.txt",
+    "static/media/bookS.png": "/static/media/bookS.a8eb7421.png",
+    "static/media/logo.png": "/static/media/logo.f8085ff4.png",
+    "static/media/mate-checker.png": "/static/media/mate-checker.5580c920.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.b0aaa5fa.chunk.js",
+    "static/css/main.d31faeea.chunk.css",
+    "static/js/main.08180acf.chunk.js"
+  ]
+}
