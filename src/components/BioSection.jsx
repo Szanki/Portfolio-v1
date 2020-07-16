@@ -23,11 +23,11 @@ export function BioSection() {
   };
 
   const fadeOut = (element) => {
-    gsap.to(element, 1, {
-      opacity: 0,
-      y: -20,
-      ease: "power4.out",
-    });
+    // gsap.to(element, 1, {
+    //   opacity: 0,
+    //   y: -20,
+    //   ease: "power4.out",
+    // });
   };
 
   intersection && intersection.intersectionRatio < 0.4
@@ -62,7 +62,7 @@ export function BioSection() {
             <li className="bio-skills-list-item">CSS3/Sass</li>
           </ul>
         </div>
-        <div className="bio-skills-framework">
+        <div className="bio-skills-list">
           <h1 className="bio-skills-header">Frameworks</h1>
           <ul>
             <li className="bio-skills-list-item">Basics RWD</li>

@@ -22,3 +22,35 @@
     }
   }
 }
+
+@include media("<=phone") {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px 20px;
+    justify-content: center;
+
+    &::before {
+      content: "Contact";
+      text-transform: uppercase;
+      font-weight: map-get($font-weight, medium);
+      padding-bottom: 7px;
+      color: $accent-color;
+    }
+    .social-icon {
+      display: flex;
+
+      margin: 10px;
+      font-size: map-get($font-size, regular);
+      // color: $accent-color;
+      text-decoration: none;
+      color: #222228;
+
+      &-content {
+        color: #222228;
+        margin-left: 5px;
+      }
+    }
+  }
+}
