@@ -65,7 +65,6 @@ export function BioSection() {
         <div className="bio-skills-list">
           <h1 className="bio-skills-header">Frameworks</h1>
           <ul>
-            <li className="bio-skills-list-item">Basics RWD</li>
             <li className="bio-skills-list-item">ReactJS - Hooks</li>
           </ul>
         </div>
@@ -76,6 +75,7 @@ export function BioSection() {
             <li className="bio-skills-list-item">Git</li>
             <li className="bio-skills-list-item">CSS in JS</li>
             <li className="bio-skills-list-item">Redux</li>
+            <li className="bio-skills-list-item">Basics RWD</li>
           </ul>
         </div>
       </div>

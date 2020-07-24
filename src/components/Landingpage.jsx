@@ -15,7 +15,7 @@ export function Landingpage() {
         <p className="hero-wrapper-text">
           My name is Michał Sulwiński
           <br />
-          I'm front-end enthusiast from Poland
+          I'm Front-end enthusiast from Poland
         </p>
       </div>
     </div>
